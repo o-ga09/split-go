@@ -1,0 +1,15 @@
+row_num: 500   # データの行数 line of deta
+nc: "\n"     # 改行文字 newline character 
+Col_info:    # データの項目情報 data infomation
+      - {
+          col_name: "test1", #項目名1 column name 1
+          str_len: 10,       #項目1の文字列長 length column name 1
+        }
+      - {
+          col_name: "test2", #項目名2 column name 2
+          str_len: 20,       #項目2の文字列長 length column name 2
+        }
+      - {
+          col_name: "test3", #項目名3 column name 3
+          str_len: 5,        #項目3の文字列長 length column name 3
+        }
